@@ -27,7 +27,7 @@ void	ft_putstr(char *str)
 		write (1, &str[i++], 1);
 }
 
-int	print_params(int ac, char **av)
+void	print_params(int ac, char **av)
 {
 	int	i;
 
